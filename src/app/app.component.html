@@ -1,0 +1,10 @@
+<header id="partice">
+    <h2>this Grid</h2>
+    <button *ngIf="auth.isLoggedIn() "    class="ui secondary button logout" (click)="  logout()">Logout</button>
+</header>
+
+<div class="app">
+    <div class="ui grid container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
